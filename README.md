@@ -9,7 +9,7 @@ Replace the Project Title
 ###  A project to analyse data from bikeshare trips in Chicago, New York and Washington from the first 6 months of 2017
 Describe what your project is about and what it does
 
-### chicago.csv new_york_city.csv washington.csv
+### chicago.csv new_york_city.csv washington.csv bikeshare.py
 Include the files used
 
 ### Credits
