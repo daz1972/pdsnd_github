@@ -210,7 +210,7 @@ def user_stats(df):
     print('-'*40)
 
 def data_limit(df):
-    trip_data = input('\nWould you like view to 5 rows of individual trip data? Enter yes or no\n').lower()
+    trip_data = input('\nDo you want to see 5 rows of individual trip data? \n').lower()
     start_loc = 0
     while True:
         if trip_data in ('yes', 'y'):
