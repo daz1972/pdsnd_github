@@ -28,7 +28,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to ha
 
     while True:
-        city = input('Which city would you like to get data for? ').lower()
+        city = input('Would you like to see data for Chicago, New York City or Washington? ').lower()
         if city not in cities:
             print('You can only review data for Chicago, New York City or Washington. \nPlease try again!')
         else:
@@ -131,7 +131,7 @@ def time_stats(df):
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
-    print('\nCalculating The Most Popular Stations and Trip...\n')
+    print('\nFinding The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
     # display most commonly used start station
@@ -210,7 +210,7 @@ def user_stats(df):
     print('-'*40)
 
 def data_limit(df):
-    trip_data = input('\nWould you like view to 5 rows of individual trip data? Enter yes or no\n').lower()
+    trip_data = input('\nDo you want to see 5 rows of individual trip data? \n').lower()
     start_loc = 0
     while True:
         if trip_data in ('yes', 'y'):
